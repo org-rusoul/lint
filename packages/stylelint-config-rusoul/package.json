@@ -1,0 +1,25 @@
+{
+  "name": "stylelint-config-rusoul",
+  "version": "0.1.4",
+  "description": "stylelint configuration named RuShou, and support html/vue etc.",
+  "keywords": [
+    "stylelint",
+    "configuration"
+  ],
+  "author": "usstpeter <usstpeter163.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "index.js",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.com/"
+  },
+  "scripts": {},
+  "dependencies": {
+    "stylelint-config-html": "^1.1.0",
+    "stylelint-order": "^5.0.0",
+    "stylelint-prettier": "^4.1.0"
+  },
+  "peerDependencies": {
+    "stylelint": "^15.11.0"
+  }
+}

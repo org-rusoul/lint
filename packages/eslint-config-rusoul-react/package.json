@@ -1,0 +1,28 @@
+{
+  "name": "eslint-config-rusoul-react",
+  "version": "0.1.5",
+  "description": "eslint configuration name RuShou",
+  "keywords": [
+    "eslint",
+    "configuration"
+  ],
+  "author": "usstpeter <usstpeter163.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "index.js",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.com/"
+  },
+  "scripts": {},
+  "dependencies": {
+    "confusing-browser-globals": "^1.0.11",
+    "eslint": "^8.54.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "object.assign": "^4.1.4",
+    "semver": "^7.5.4"
+  }
+}

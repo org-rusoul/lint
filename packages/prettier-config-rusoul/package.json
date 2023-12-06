@@ -1,0 +1,17 @@
+{
+  "name": "prettier-config-rusoul",
+  "version": "0.1.4",
+  "description": "prettier configuration named RuShou",
+  "keywords": [
+    "prettier",
+    "cofnigration"
+  ],
+  "author": "usstpeter <usstpeter163.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "index.json",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.com/"
+  },
+  "scripts": {}
+}
