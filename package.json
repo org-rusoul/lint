@@ -7,5 +7,6 @@
   "devDependencies": {
     "lerna": "^8.0.0"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "version": "0.1.0"
 }
