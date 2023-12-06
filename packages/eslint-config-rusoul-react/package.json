@@ -7,8 +7,16 @@
     "configuration"
   ],
   "author": "usstpeter <usstpeter163.com>",
-  "homepage": "",
-  "license": "ISC",
+  "homepage": "https://github.com/org-rusoul/lint",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/org-rusoul/lint",
+    "directory": "packages/eslint-config-rusoul-react"
+  },
+  "bugs": {
+    "url": "https://github.com/org-rusoul/lints/issues"
+  },
   "main": "index.js",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"

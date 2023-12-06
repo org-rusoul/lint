@@ -7,8 +7,16 @@
     "cofnigration"
   ],
   "author": "usstpeter <usstpeter163.com>",
-  "homepage": "",
-  "license": "ISC",
+  "homepage": "https://github.com/org-rusoul/lint",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/org-rusoul/lint",
+    "directory": "packages/prettier-config-rusoul"
+  },
+  "bugs": {
+    "url": "https://github.com/org-rusoul/lints/issues"
+  },
   "main": "index.json",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"

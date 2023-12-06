@@ -27,15 +27,15 @@ module.exports = {
 #### for stylelint:
 1. install
 ```
-npm i -D stylelint stylelint-config-resoul
+npm i -D stylelint stylelint-config-rusoul
 
 // if postcss used
-npm i -D postcss stylelint stylelint-config-resoul
+npm i -D postcss stylelint stylelint-config-rusoul
 ```
 2. .stylelintrc
 ```
 {
-  "extends": "stylelint-config-resoul",
+  "extends": "stylelint-config-rusoul",
   "ignoreFiles": ["**/*.js"]
 }
 ```

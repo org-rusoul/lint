@@ -1,15 +1,16 @@
 # `eslint-config-rusoul-react`
 
-> TODO: description
+
 
 ## Usage
 
+### Install
 ```
-// 安装
-npm i -D eslint eslint-config-rusoul-react -D
+npm i -D eslint eslint-config-rusoul-react
+```
 
-// 配置
-
+### Configuration
+```
 // eslintrc.js
 module.exports = {
   extends: ['eslint-config-rusoul-react'],
@@ -19,11 +20,10 @@ module.exports = {
 
 ```
 
-## Important
+## Requirements
 ```
 eslint 8+
-确认package-lock.json里面最外层eslint版本能不能对上
-
-需要支持es2022(ecmaVersion:13)语法，否则需要使用@babel/eslint-parser来额外定制
+make sure use correct version of eslint, you can check by package-lock.json file;
+we need es2022(ecmaVersion:13) syntax， or you need install @babel/eslint-parser来 and config it.
 
 ```

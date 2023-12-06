@@ -2,14 +2,19 @@
 
 ## Usage
 
+### Install
 ```
-// 安装
 npm i -D prettier prettier-config-rusoul
+```
 
-// 配置
-
+### Configuration
+```
 // .prettierrc
-
 "prettier-config-rusoul"
 
+```
+
+## Requirements
+```
+prettier 2/3+
 ```

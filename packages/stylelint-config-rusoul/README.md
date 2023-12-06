@@ -6,34 +6,34 @@ just do `stylelint --fixAll` for *css files!
 
 ## Usage
 
+### Install
 ```
-// 安装
-npm i -D stylelint stylelint-config-resoul
+npm i -D stylelint stylelint-config-rusoul
+```
 
-// 配置
-
+### Configuration
+```
 // .stylelintrc
 {
-  "extends": "stylelint-config-resoul",
+  "extends": "stylelint-config-rusoul",
   "ignoreFiles": ["**/*.js"]
 }
 
 ```
 
+### IDE
 ```
-// VSCode中保存文件自动化
+// auto fix on file in VSCode
 "editor.codeActionsOnSave": {
   "source.fixAll.stylelint": true,
 },
 
 ```
 
-## 依赖
+## Requirements
 
 ```
-stylint 15+
+*stylelint 15+
 
-如果项目使用了postcss，需要
-postcss 8+
-
+postcss 8+ // depends on your project
 ```
